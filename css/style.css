@@ -1,3 +1,36 @@
 * {
-    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    border-style: solid;
+    background-image: url("https://wallpaperstudio10.com/static/wpdb/wallpapers/3840x2160/182547.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+div {
+   margin: 10%;
+   background-color: bisque;
+   opacity: 0.6;
+}
+
+header {
+    font-family: Arial;
+    text-align: center;
+    margin: 5%;
+    padding: 5%;
+    background-color: bisque;
+    opacity: 0.6;
+}
+
+h1 {
+    font-size: 200%;
+}
+
+p {
+    font-family: helvetica;
+    background: no-repeat;
+    text-align: center;
+    border: grey;
 }
