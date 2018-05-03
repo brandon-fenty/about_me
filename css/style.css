@@ -3,34 +3,72 @@
 }
 
 body {
-    border-style: solid;
-    background-image: url("https://wallpaperstudio10.com/static/wpdb/wallpapers/3840x2160/182547.jpg");
+    background-image: url("/Users/yutani/codefellows/201/about_me/img/Snoqualmie .jpg");
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
-div {
-   margin: 10%;
-   background-color: bisque;
-   opacity: 0.6;
-}
-
 header {
-    font-family: Arial;
     text-align: center;
-    margin: 5%;
-    padding: 5%;
-    background-color: bisque;
-    opacity: 0.6;
+    margin: 20px 40px 0px 40px;
+    padding: 2%;
+    background-color: rgba(112, 128, 144, 0.87);
+    
 }
 
 h1 {
-    font-size: 200%;
+    text-align: right;
+    font-size: 48px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: goldenrod;
 }
 
-p {
-    font-family: helvetica;
-    background: no-repeat;
+h2 {
+    text-align: right;
+    font-size: 18px;
+    color: whitesmoke;
+}
+
+h3{
+    font-size: 24px;
+}
+
+
+#me {
+    margin: 15px 20px 10px 35px;
+    border: 0px 0px 3px 3px grey;
+    float: left;
+}
+
+#about {
+    float: left;
+    margin: 20px 20px 10px 10px;
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    background-color: rgba(112, 128, 144, 0.87);
     text-align: center;
-    border: grey;
+}
+
+#questions {
+    float: left;
+    text-align: center;
+    margin: 20px 20px 10px 20px;
+    width: 300px;
+    height: 170px;
+    padding: 10px;
+    background-color: rgba(112, 128, 144, 0.87);
+}
+
+#contact {
+    width: 1000px;
+    height: 30px;
+    text-align: center;
+    background-color: rgba(112, 128, 144, 0.87);
+}
+
+#bucketList {
+    width: 280px;
+    height: 180px;
+    overflow: scroll;
 }
