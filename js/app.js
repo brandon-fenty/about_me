@@ -97,19 +97,21 @@ while(numGuesses > -1 && userWrong === true) {
         
      // Begin checking array
      for(var index = 0; index < arrayAnswers.length; index++) {
-        var answer7 = prompt('Can you guess one of my favorite foods? You will have 6 tries to get one of them').toLocaleLowerCase();   
+        var answer7 = prompt('Can you guess one of my favorite foods? You will have 6 tries to get one of them').toLowerCase();  
+
          if(answer7 === arrayAnswers[index]){
             alert('Nicely done! But then again, everyone loves ' + answer7 + ' right?');
             console.log('The user answered #7 correctly with ' + numGuesses + ' left');
             userWrong = false;
-        } else if(answer7 !== arrayAnswers[index]){
+
+        } else if(answer7 !== arrayAnswers[index]) {
             alert('Sorry, thats not one of my faves! Keep trying though since you have ' + numGuesses + ' guesses left');
             console.log('The user answered #7 incorrectly they have ' + numGuesses + ' guesses left');
         }
-        // End loop
         numGuesses--;
+        // End loop
 
-        if(numGuesses === 0 && userWrong === true){
+        if(numGuesses === 0 && userWrong === true) {
                 alert('Sorry you ran out of guesses! Better luck next time');
                 console.log('The user ran out of guesses for #7')
         }
