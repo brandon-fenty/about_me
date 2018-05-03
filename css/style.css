@@ -3,10 +3,11 @@
 }
 
 body {
-    background-image: url("/Users/yutani/codefellows/201/about_me/img/Snoqualmie .jpg");
+    background-image: url("../img/Snoqualmie .jpg");
     background-repeat: no-repeat;
     background-size: 100%;
 }
+
 
 header {
     text-align: center;
