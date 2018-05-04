@@ -2,21 +2,27 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* body {
-    background-image: url("Snoqualmie.jpg");
+body {
+    background-image: url("../img/Snoqualmie.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
-} */
+} 
+
 
 header {
-    text-align: center;
-    margin: 20px 40px 0px 40px;
+    text-align: right;
+    position: relative;
+    max-width: 800;
+    margin: 20px;
     padding: 2%;
     background-color: rgba(112, 128, 144, 0.87);
-    background-image: url("Snoqualmie.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
 }
+
+nav {
+    width: 800px;  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 
 h1 {
     text-align: right;
@@ -24,28 +30,42 @@ h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: goldenrod;
 }
-
+/* 
 h2 {
+    text-align: right;
+    font-size: 18px;
+    color: whitesmoke;
+} */
+
+
+li {
+    display: inline-block;  
+    margin: 0px 40px 0px 40px; 
+}
+
+img {
+    float: left;
+}
+
+#titleSubHead {
     text-align: right;
     font-size: 18px;
     color: whitesmoke;
 }
 
-h3{
-    font-size: 24px;
-}
-
-
-#me {
-    margin: 15px 20px 10px 35px;
-    border: 0px 0px 3px 3px grey;
-    float: left;
+#content {
+    max-width: 1200px;
+    max-height: 400px;
+    margin: 20px auto;
+    overflow: scroll;
+    background-color: rgba(112, 128, 144, 0.87);
+    padding: 20px;
 }
 
 #about {
     float: left;
-    margin: 20px 20px 10px 10px;
-    width: 300px;
+    margin: 20px auto;
+    max-width: 300px;
     height: 400px;
     padding: 10px;
     background-color: rgba(112, 128, 144, 0.87);
@@ -55,8 +75,8 @@ h3{
 #questions {
     float: left;
     text-align: center;
-    margin: 20px 20px 10px 20px;
-    width: 300px;
+    margin: 20px;
+    max-width: 300px;
     height: 170px;
     padding: 10px;
     background-color: rgba(112, 128, 144, 0.87);
@@ -73,4 +93,18 @@ h3{
     width: 280px;
     height: 180px;
     overflow: scroll;
+}
+
+#blogHeader {
+    text-align: center;
+    width: 750px;
+    border: 3px solid red;
+    float: left;
+    margin: 20px;
+}
+
+.postTitle {
+    margin: 20px auto;
+    float: left;
+    font-size: 24px;
 }
