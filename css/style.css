@@ -1,11 +1,9 @@
-* {
-    font-family: Arial, Helvetica, sans-serif;
-}
 
 body {
     background-image: url("../img/Snoqualmie.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 } 
 
 
@@ -44,7 +42,8 @@ li {
 }
 
 img {
-    float: left;
+    max-width: 100%;
+    height: auto;
 }
 
 #titleSubHead {
@@ -64,21 +63,20 @@ img {
 
 #about {
     float: left;
-    margin: 20px auto;
-    max-width: 300px;
-    height: 400px;
-    padding: 10px;
     background-color: rgba(112, 128, 144, 0.87);
-    text-align: center;
+}
+
+#bucketList {
+    float: left;
+    overflow: scroll;
+    background-color: rgba(112, 128, 144, 0.87);
 }
 
 #questions {
     float: left;
     text-align: center;
-    margin: 20px;
-    max-width: 300px;
-    height: 170px;
-    padding: 10px;
+    width: 500px;
+    height: 400px;
     background-color: rgba(112, 128, 144, 0.87);
 }
 
@@ -89,22 +87,76 @@ img {
     background-color: rgba(112, 128, 144, 0.87);
 }
 
-#bucketList {
-    width: 280px;
-    height: 180px;
+#blogHeader {
+    text-align: center;
+    width: 725px;
+    height: 40px;
+    float: left;
+    margin: 10px;
+    font-size: xx-large;
+    color: goldenrod;
+}
+
+.profilePic {
+    margin: 0px 20px 0px 20px;
+    float: left;
+    font-size: 24px;
+}
+
+.post {
+    float: left;
+    width: 725px;
+    height: 310px;
+    padding: 10px;
     overflow: scroll;
 }
 
-#blogHeader {
-    text-align: center;
-    width: 750px;
-    border: 3px solid red;
-    float: left;
+.postTitle {
+    font-size: x-large;
+    margin: 10px;
+}
+
+.postContent {
     margin: 20px;
 }
 
-.postTitle {
-    margin: 20px auto;
+.boxSize {
+    box-sizing: border-box;
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    padding: 20px;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.imgZoom {
+    transition: transform .2s;
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.imgZoom:hover {
+    transform: scale(1.5);
+}
+
+.photoGallery {
+    margin: 0 auto;
+    display: table;
+}
+
+.photos {
     float: left;
-    font-size: 24px;
+    margin: 10px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    display: table;
+    vertical-align: middle;
+    text-align: center;
 }
